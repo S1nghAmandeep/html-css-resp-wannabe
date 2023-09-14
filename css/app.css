@@ -7,3 +7,36 @@
         width: 620px;
     }
 }
+
+
+/* sul schermo che ha come massimo la larghezza di 480px */
+
+@media screen and (max-width: 480px) {
+
+    .container {
+        width: 450px;
+    }
+
+    .row {
+        flex-direction: column;
+        gap: 66px;
+    }
+
+    .lessons .col {
+        width: 100%;
+    }
+
+    .steps .col {
+        width: 100%;
+    }
+
+    .why-us .col-left {
+        width: 100%;
+    }
+
+    .why-us .col-right {
+        width: 100%;
+    }
+
+
+}
