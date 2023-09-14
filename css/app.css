@@ -1,3 +1,14 @@
+/* Sopra i 768px e fino ai 1160px il layout è un po’ troppo “rigido”! Come mai? :faccia_pensosa: */
+/* Aggiungiamo una media query per sistemare il layout e non far comparire la scrollbar orizzontale. */
+/* sistemato questo problema */
+
+@media screen and (max-width: 1160px) {
+
+    .container {
+        width: auto;
+    }
+}
+
 
 /* sul schermo che ha come massimo la larghezza di 768px */
 
@@ -14,7 +25,7 @@
 @media screen and (max-width: 480px) {
 
     .container {
-        width: 450px;
+        width: 300px;
     }
 
     .row {
