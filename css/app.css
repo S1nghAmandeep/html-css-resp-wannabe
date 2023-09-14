@@ -1,0 +1,9 @@
+
+/* sul schermo che ha come massimo la larghezza di 768px */
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        width: 620px;
+    }
+}
