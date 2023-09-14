@@ -2,7 +2,7 @@
 /* Aggiungiamo una media query per sistemare il layout e non far comparire la scrollbar orizzontale. */
 /* sistemato questo problema */
 
-@media screen and (max-width: 1160px) {
+@media screen and (max-width: 1175px) {
 
     .container {
         width: auto;
@@ -25,7 +25,7 @@
 @media screen and (max-width: 480px) {
 
     .container {
-        width: 300px;
+        width: 380px;
     }
 
     .row {
